@@ -48,7 +48,8 @@
   }
 
   input[type=text]:focus{
-    outline: 2px solid orange;     /* oranges! yey */
+    outline: 2px solid orange;
+    background-color: aqua;     /* oranges! yey */
   }
 
   @media only screen and (max-width: 768px){
@@ -58,7 +59,10 @@
     }
   }
   
-  
+  .container-video{
+    height:inherit;
+    width:inherit;
+  }
   .content-table {
     border-collapse: collapse;
     /* margin: 5vw; */
