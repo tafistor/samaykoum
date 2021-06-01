@@ -1,3 +1,0 @@
-function myfucntion() {
-    alert("hello");
-}
