@@ -159,3 +159,12 @@
 * {
   box-sizing: border-box;
 }
+
+
+.nav-container{
+  position: relative;
+}
+
+.nav-cont{
+  position: absolute;
+}
