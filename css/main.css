@@ -1,0 +1,157 @@
+.topnav {
+    background-color: rgba(0, 0, 0, 0.932);
+    overflow: hidden;
+  }
+  
+  .topnav a {
+    float: right;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 25px;
+    text-decoration: none;
+    font-size: 18px;
+    display: inline-block;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: rgb(224, 208, 64) ;
+    color: black;
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #4822a1;
+    color: white;
+  }
+  .konoha {
+      float :left; 
+  }
+  h1{
+    color: white
+  }
+  body {
+    background-image: url('narusauke.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  .card{
+    position:relative;
+    background-color: rgba(128, 128, 128, 0.726);
+    top: 600px; 
+    left:0px;
+    border-left-width: 200px;
+    border-right-width:200px ;
+    height: 600px;
+    
+  }
+
+  input[type=text]:focus{
+    outline: 2px solid orange;     /* oranges! yey */
+  }
+
+  @media only screen and (max-width: 768px){
+    .container-video{
+      height:inherit;
+      width:inherit;
+    }
+  }
+  
+  
+  .content-table {
+    border-collapse: collapse;
+    /* margin: 5vw; */
+    font-size: 1em;
+    min-width: 200px;
+    border-radius: 30px 25px 0 0;
+    overflow: hidden;
+    box-shadow: 0 0 20px rgb(0, 0, 0);
+  }
+  
+  .content-table thead tr {
+    background-color: #4822a1;
+    color: #ffffff;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .content-table th,
+  .content-table td {
+    padding: 12px 15px;
+  }
+  
+  .content-table tbody tr {
+    border-bottom: 1px solid #dddddd;
+    background-color: white;
+  }
+  
+  .content-table tbody tr:nth-of-type(even) {
+    background-color: #fffefe;
+  }
+  
+  .content-table tbody tr:last-of-type {
+    border-bottom: 5px solid #000000;
+    background-color: white;
+  }
+  
+  .content-table tbody tr.active-row {
+    font-weight: bold;
+    color: #4306eb;
+  }
+  .titree::before{
+    content:"-";
+    color:rgb(191, 161, 240);
+  }
+  .titree::after{
+    content:"-";
+    color:rgb(191, 161, 240);
+  }
+
+  
+
+  /* For desktop: */
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.aside {
+  background-color: #293e46;
+  padding: 15px;
+  color: #ffffff;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+* {
+  box-sizing: border-box;
+}
